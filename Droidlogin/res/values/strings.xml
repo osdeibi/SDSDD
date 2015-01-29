@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">Sistema de Soporte de Decisiones</string>
+    <string name="rules">CAMINA ESTA REALIZADO PARA LA DETECCION TEMPRANA DE NIVELES DE GRAVEDAD DE AUISMO EN NIÑO EN EDADES COMPRENDIDAS  ENTRE 1.8 MESES A 60 MESES DE EDAD.</string>
+    <string name="title_activity_paciente">Paciente</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="paciente">paciente</string>
+    <string name="title_activity_comenzar">Comenzar</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mantenimiento">Mantenimiento</string>
+    <string name="title_activity_archivopdf">Archivopdf</string>
+
+</resources>

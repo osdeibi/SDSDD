@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/playBt"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Empezar"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Mediciones"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/rulesBtn"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Instrucciones"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Salir"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version1.0 (EarlyAcess)" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:text="!Bienvenido!"
+        android:textColor="#21610B"
+        android:textSize="25dip" />
+
+    <TextView
+        android:id="@+id/usr_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dip"
+        android:gravity="center"
+        android:textColor="#FF4000"
+        android:textSize="22dip" />
+
+    <TextView
+        android:id="@+id/logoff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="45dip"
+        android:gravity="bottom|center_horizontal"
+        android:text="!Cerrar Sesiòn!"
+        android:textColor="#B40404"
+        android:textSize="22dip" />
+
+</LinearLayout>

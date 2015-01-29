@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/rulesText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="@string/rules"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="572dp"
+        android:layout_height="wrap_content"
+        android:text="A continuación se describen el funcionamiento de cada uno de los botones de opciones"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="572dp"
+        android:layout_height="wrap_content"
+        android:text="COMENZAR: Al accionar el boton comenzar se iniciara con las pruebas de evaluación por parte del especialista. El especialista contara con una valoración de 1 a 4 puntos dependiendo el criterio de evaluación por cada criterio a evaluar "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="573dp"
+        android:layout_height="wrap_content"
+        android:text="PACIENTE: Boton con el que el evaluador ingresara los datos del paciente tales como: Nombres, Apellidos, Edad y Fecha de la Evaluación."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="571dp"
+        android:layout_height="wrap_content"
+        android:text="SALIR: Este botón se utilizara para el cierre general del sistema."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="572dp"
+        android:layout_height="wrap_content"
+        android:text="MANTENIMIENTO: Este botón se utiliza para la depuración y mantenimiento del SDDDTD."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="15dip"
+        android:paddingTop="15dip" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_selector"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="Atras"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>
